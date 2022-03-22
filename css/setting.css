@@ -1,0 +1,15 @@
+.content {
+    position: absolute;
+    width: 1125px;
+    height: 1200px;
+    left: 220px;
+    top: 75px;
+    background: rgba(225, 223, 223, 0.5);
+    border-radius: 5px;
+	-webkit-border-radius:10px;
+	padding-left:20px;
+	padding-top:10px;
+	border:none;
+	background:#E5E5E5;
+	box-sizing:border-box;
+}
