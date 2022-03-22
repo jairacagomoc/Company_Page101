@@ -1,0 +1,153 @@
+.job-content{
+    position: absolute;
+    width: 1125px;
+    height: 1200px;
+    left: 220px;
+    top: 75px;
+    background: rgba(196, 196, 196, 0.5);
+    border-radius: 5px;
+	-webkit-border-radius:10px;
+	border:none;
+	background:#E5E5E5;
+	box-sizing:border-box;
+}
+.job-content .title{
+    position: absolute;
+    width: 100%;
+    height: 85px;
+    background: rgb(161, 159, 159);
+    border-radius: 10px 10px 0px 0px;
+}
+.job-content .title p{
+    font-style: normal;
+    text-align: center;
+    font-size: 36px;
+    line-height: 54px;
+    margin-top: 20px;
+    color:white;
+}
+.job-content input[type="text"],
+.job-content #select{
+	padding:5px 3px;
+	box-sizing:border-box;
+	width:550px;
+	outline:none;
+	transition:all 0.2s ease;
+	border:none;
+    height: 49px;
+	-webkit-border-radius: 10px;
+	background:#ECECEC;;
+	font-family: Poppins;
+}
+.job-content input[type="number1"]{
+	padding:5px 3px;
+	box-sizing:border-box;
+	width:150px;
+	outline:none;
+	transition:all 0.2s ease;
+	border:none;
+    height: 49px;
+	-webkit-border-radius: 10px;
+	background:#ECECEC;;
+	font-family: Poppins;
+	margin-left: 50px;
+	
+}
+.job-content input[type="number"]{
+	padding:5px 3px;
+	box-sizing:border-box;
+	width:150px;
+	outline:none;
+	transition:all 0.2s ease;
+	border:none;
+    height: 49px;
+	-webkit-border-radius: 10px;
+	background:#ECECEC;;
+	font-family: Poppins;
+	
+}
+.job-Info .label :placeholder-shown{
+	align-items: center;
+}
+.job-content .job-Info{
+    margin-top: 119px;
+    margin-left: 292px;
+}
+.j-1stform,
+.srange,
+.skills,
+.job-desc{
+    margin-bottom: 10px;
+}
+.j-2ndform .innerform{
+    float: left;
+}
+.j-2ndform .innerform .label{
+    width: 150px;
+}
+.j-2ndform .innerform #select{
+    width: 250px;
+    background:#ECECEC;
+    margin-right: 50px;
+}
+.srange
+{
+    clear:both;
+}
+.skills input[type="text"]{
+    margin-bottom: 10px;
+    
+}
+#add{
+	cursor: pointer;
+	border:none;
+	background: #4285F4;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+    color:white;
+	margin-left: 400px;
+	width: 150px;
+	height: 35px;
+    margin-top: 10px;
+}
+.job-desc textarea{
+    padding:5px 3px;
+	box-sizing:border-box;
+	width:550px;
+	outline:none;
+	transition:all 0.2s ease;
+	border:none;
+    height: 150px;
+	-webkit-border-radius: 10px;
+	background:#ECECEC;;
+	font-family: Poppins;
+
+}
+#s-draft{
+    cursor: pointer;
+	border:none;
+	background: #888888;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+    color:white;
+	margin-left: 290px;
+	width: 150px;
+	height: 35px;
+    margin-top: 10px;
+	
+}
+#post-job{
+	cursor: pointer;
+	border:none;
+	background: #4285F4;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+    color:white;
+	width: 220px;
+	height: 35px;
+    margin-top: 10px;
+}
+.job-content .btn-down button{
+    float: left;
+    margin-left: 180px;
+}

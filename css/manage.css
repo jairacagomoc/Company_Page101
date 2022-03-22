@@ -1,0 +1,236 @@
+/*--CONTENT----*/
+.profile{
+    position: absolute;
+    width: 1125px;
+    height: 1200px;
+    left: 220px;
+    top: 75px;
+    background: rgba(225, 223, 223, 0.5);
+    border-radius: 5px;
+	-webkit-border-radius:10px;
+	padding-left:20px;
+	padding-top:10px;
+	border:none;
+	background:#E5E5E5;
+	box-sizing:border-box;
+	
+}
+.desc{
+	position:absolute;
+	top:50px;
+	text-align:left;
+	margin-left:400px;
+	margin-top:30px;
+}
+.desc textarea{
+	position:absolute;
+	top:50px;
+	width:500px;
+	height:150px;
+	padding-left:15px;
+	padding-top:10px;
+	text-align:left;
+	border:none;
+	-webkit-border-radius: 10px;
+	resize:none;
+	background: rgba(196, 196, 196, 0.6);
+}
+.profilepic img{
+    width: 180px;
+    height: 180px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 100px;
+    background: #C4C4C4;
+	margin-left:100px;
+}
+.profile .profilepic i{
+    position: absolute;
+    font-size: 25px;
+    left: 300px;
+    top: 250px;
+}
+.form{
+	width:1000px;
+	margin:0 0;
+	border:none;
+}
+.form textarea,
+.coInfo .coInfo-1stform input[type="text"],
+.coInfo .coInfo-2ndform input[type="text"]{
+	padding:5px 3px;
+	box-sizing:border-box;
+	width:550px;
+	outline:none;
+	transition:all 0.2s ease;
+	border:none;
+	-webkit-border-radius: 5px;
+	background: rgba(196, 196, 196, 0.6);
+	font-family: Poppins;
+	margin-left: 5px;
+}
+
+.coInfo .coInfo-3rdform .innerform input[type="text"]{
+	padding:5px 3px;
+	box-sizing:border-box;
+	width:400px;
+	outline:none;
+	transition:all 0.2s ease;
+	border:none;
+	-webkit-border-radius: 5px;
+	background: rgba(196, 196, 196, 0.6);
+	font-family: Poppins;
+	margin-left: 5px;
+}
+.package input[type="text"],
+.coInfo .coInfo-3rdform .inner1 input[type="text"]{
+	padding:5px 3px;
+	box-sizing:border-box;
+	width:250px;
+	outline:none;
+	transition:all 0.2s ease;
+	border:none;
+	-webkit-border-radius: 5px;
+	background: rgba(196, 196, 196, 0.6);
+	font-family: Poppins;
+	margin-left: 5px;
+}
+.package input[type="text"]{
+	padding:5px 3px;
+	box-sizing:border-box;
+	width:100px;
+	outline:none;
+	transition:all 0.2s ease;
+	border:none;
+	-webkit-border-radius: 5px;
+	background: rgba(196, 196, 196, 0.6);
+	font-family: Poppins;
+}
+.package :placeholder-shown{
+	font-weight: bold;
+	text-align: center;
+	font-size: 15px;
+	font-family: Poppins;
+
+}
+.coInfo .coInfo-4thform input[type="text"],
+.coInfo .coInfo-4thform input[type="number"]{
+	padding:5px 3px;
+	box-sizing:border-box;
+	width:60px;
+	outline:none;
+	transition:all 0.2s ease;
+	border:none;
+	-webkit-border-radius: 5px;
+	background: rgba(196, 196, 196, 0.6);
+	font-family: Poppins;
+	margin-left: 5px;
+}
+.coInfo,
+.package{
+    margin-left: 30px;
+}
+.coInfo .content-coInfo,
+.package .content-package{
+    margin-left: 30px;
+}
+.coInfo-1stform,
+.coInfo-2ndform,
+.coInfo-4thform{
+    margin-bottom:5px;
+}
+
+.coInfo-4thform .innerform .label{
+    width: 200px;
+    float: left;
+}
+.coInfo-4thform #select{
+    width: 150px;
+}
+.socmed{
+	position: absolute;
+	width: 339px;
+    height: 250px;
+	left: 700px;
+	top: 453px;
+	outline:none;
+
+	background: rgba(196, 196, 196, 0.6);
+	border-radius: 10px;
+	text-align:center;
+	padding-top:15px;
+	font-weight: 900;
+	font-size: 16px;
+	
+}
+.button_facebook input{
+	width: 242px;
+    height: 36px;
+	margin-left: 10px;
+    margin: 0;
+	border:none;
+	margin-top:5px;
+	outline:none;
+	padding-left:5px;
+	background: #EEEEEE;
+    backdrop-filter: blur(4px);
+	font-family: Poppins;
+	border-radius: 10px;
+}
+.button_facebook i{
+	font-size: 25px;
+    align-items: center;
+	display:inline-flex;
+	margin-top:10px;
+    margin-right:10px;
+	
+}
+.coRep .link{
+	margin-left: 30px;
+}
+.form .coRep-1stform .innerform input[type="text"]{
+    width: 250px;
+}
+#update{
+	cursor: pointer;
+	border:none;
+	background: #800;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+	border-radius: 31.5px;
+    color:white;
+	margin-left: 460px;
+	width: 200px;
+	height: 35px;
+    margin-top: 30px;
+}
+.btn_apply{
+	cursor: pointer;
+	border:none;
+	background: #800;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+	border-radius: 31.5px;
+    color:white;
+	width: 200px;
+	height: 30px;
+	margin-bottom: 20px;
+	font-family: Poppins;
+}
+.profile .label2{
+	margin-left: 400px;
+}
+.profile .footer input[type="text"] {
+	margin-left: 460px;
+	padding:5px 3px;
+	box-sizing:border-box;
+	width:200px;
+	outline:none;
+	transition:all 0.2s ease;
+	border:none;
+	-webkit-border-radius: 5px;
+	background: rgba(196, 196, 196, 0.6);
+	font-family: Poppins;
+}
+.profile .footer :placeholder-shown{
+	text-align: center;
+
+}
