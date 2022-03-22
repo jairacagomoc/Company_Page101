@@ -1,0 +1,84 @@
+
+/*--CONTENT----*/
+.coRep{
+    position: absolute;
+    width: 1125px;
+    height: 1200px;
+    left: 220px;
+    top: 75px;
+    background: rgba(225, 223, 223, 0.5);
+    border-radius: 5px;
+	-webkit-border-radius:10px;
+	padding-left:20px;
+	padding-top:10px;
+	border:none;
+	background:#E5E5E5;
+	box-sizing:border-box;
+	
+}
+.coRep{
+    margin-left: 30px;
+}
+.coRep input[type="text"]{
+	padding:5px 3px;
+	box-sizing:border-box;
+	width:250px;
+	outline:none;
+	transition:all 0.2s ease;
+	border:none;
+	-webkit-border-radius: 5px;
+	background: rgba(196, 196, 196, 0.6);
+	font-family: Poppins;
+}
+.form .label{
+	margin-bottom:5px;
+	text-transform:capitalize;
+}
+.coRep .content-coRep{
+    margin-left: 30px;
+}
+.coRep-1stform .innerform{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.coRep-1stform .innerform .label{
+    width: 100px;
+    margin-right: 50px;
+}
+#suffix{
+	width:60px;
+}
+.coRep-2ndform{
+	clear:both;
+}
+.coRep .coRep-1stform,
+.coRep .coRep-2ndform{
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.coRep span{
+	font-weight: bold;
+
+}
+
+.btn_back,
+.btn_new,
+.btn_update,
+.btn_delete{
+	cursor: pointer;
+	border:none;
+	background: #800;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+	border-radius: 31.5px;
+    color:white;
+	width: 80px;
+	height: 20px;
+    margin-top: 20px;
+	margin-bottom: 20px;
+}
+.NewRep{
+	margin-bottom: 20px;
+	border-bottom: 1px solid gray;
+	width: 1000px;
+}
