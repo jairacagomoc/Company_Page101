@@ -125,10 +125,14 @@
     margin:5px;
 }
 .content-info .title1{
-    margin: 5px;
+    margin-left: 5px;
+}
+.info h3{
+    margin-left: 20px;
 }
 .coprofile .jobposting{
     position: relative;
+    margin-left: 15px;
     width: 950px;
     height: 310px;
     border-radius: 20px;
