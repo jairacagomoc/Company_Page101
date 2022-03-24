@@ -35,7 +35,7 @@
 	transition:all 0.2s ease;
 	border:none;
     height: 49px;
-	-webkit-border-radius: 10px;
+	border-radius: 10px;
 	background:#ECECEC;;
 	font-family: Poppins;
 }
@@ -47,7 +47,7 @@
 	transition:all 0.2s ease;
 	border:none;
     height: 49px;
-	-webkit-border-radius: 10px;
+	border-radius: 10px;
 	background:#ECECEC;;
 	font-family: Poppins;
 	margin-left: 50px;
@@ -61,7 +61,7 @@
 	transition:all 0.2s ease;
 	border:none;
     height: 49px;
-	-webkit-border-radius: 10px;
+	border-radius: 10px;
 	background:#ECECEC;;
 	font-family: Poppins;
 	
@@ -101,7 +101,7 @@
 #add{
 	cursor: pointer;
 	border:none;
-	background: #4285F4;
+	background: #800;
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
 	border-radius: 10px;
     color:white;
@@ -118,7 +118,7 @@
 	transition:all 0.2s ease;
 	border:none;
     height: 150px;
-	-webkit-border-radius: 10px;
+	border-radius: 10px;
 	background:#ECECEC;;
 	font-family: Poppins;
 
@@ -126,7 +126,7 @@
 #s-draft{
     cursor: pointer;
 	border:none;
-	background: #888888;
+	background: #800;
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
 	border-radius: 10px;
     color:white;
@@ -136,10 +136,17 @@
     margin-top: 10px;
 	
 }
+#s-draft:hover,
+#add:hover,
+#post-job:hover,
+.btn_down{
+	color:black;
+	background-color: white;
+}
 #post-job{
 	cursor: pointer;
 	border:none;
-	background: #4285F4;
+	background: #800;
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
 	border-radius: 10px;
     color:white;

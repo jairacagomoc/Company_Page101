@@ -77,6 +77,13 @@
     margin-top: 20px;
 	margin-bottom: 20px;
 }
+.btn_back:hover,
+.btn_new:hover,
+.btn_update:hover,
+.btn_delete:hover{
+	color:black;
+	background-color: white;
+}
 .NewRep{
 	margin-bottom: 20px;
 	border-bottom: 1px solid gray;

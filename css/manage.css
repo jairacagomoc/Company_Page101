@@ -203,6 +203,14 @@
 	height: 35px;
     margin-top: 30px;
 }
+#update:hover{
+	background-color: white;
+	color: black;
+}
+.btn_apply:hover{
+	background-color: white;
+	color: black;
+}
 .btn_apply{
 	cursor: pointer;
 	border:none;
