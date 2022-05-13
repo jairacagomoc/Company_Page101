@@ -1,0 +1,206 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="css/topside.css">
+    <link rel="stylesheet" href="css/view.css">
+    
+    <!----===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    
+    <title>Dashboard Sidebar Menu</title> 
+</head>
+<body>
+    <!-------TOPBAR------->
+    <div class = "topbar">
+        <div class="logo-container">
+            <img src="https://www.pngkey.com/png/detail/52-528919_the-pup-logo-polytechnic-university-of-the-philippines.png" alt="">
+            <h1>PUP<br> JobFair Portal</h1>
+            <div class = "topright">
+            <ul>
+                <li><button>Create Job Posting</button></li>
+                <li><i class = 'bx bx-bell icon'></i></li>
+                <li><i class = 'bx bx-power-off icon'></i></li>
+            </ul>
+            </div>
+        </div>
+
+
+    <!------SIDEBAR------>
+    <nav class="sidebar close">
+        <header>
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+                <li class="search-box">
+                    </li>
+
+                <div class="pic">
+                    <img src = "img/pic.jpg">
+                </div>
+
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="dashboard.html">
+                            <i class='bx bx-bar-chart-alt-2 icon' ></i>
+                            <span class="text nav-text">Dashboard</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="profile.html">
+                            <i class='bx bx-user-circle icon' ></i>
+                            <span class="text nav-text">Profile</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="manage.html">
+                            <i class='bx bx-edit-alt icon'></i>
+                            <span class="text nav-text">Manage Account</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="applicants.html">
+                            <i class='bx bx-group icon' ></i>
+                            <span class="text nav-text">Applicants</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="jobpost.html">
+                            <i class='bx bx-briefcase icon' ></i>
+                            <span class="text nav-text">Job Postings</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="messages.html">
+                            <i class='bx bx-message-dots icon'></i>
+                            <span class="text nav-text">Messages</span>
+                        </a>
+                    </li>
+
+
+                </ul>
+            </div>
+
+            <div class="bottom-content">
+                <li class="">
+                    <a href="settings.html">
+                        <i class='bx bx-cog icon' ></i>
+                        <span class="text nav-text">Settings</span>
+                    </a>
+                </li>
+
+                <li class="mode">
+                    <div class="sun-moon">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+                    <span class="mode-text text">Dark mode</span>
+
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+                
+            </div>
+        </div>
+
+    </nav>
+    </div>
+    </nav>
+    
+  <!-----content----->
+<div class="coprofile">
+    <div id="rectangle">
+        <div class="coname">
+        <h1>COMPANY Name</h1>
+        </div>
+    </div>
+    <div id="profile">
+        <img src="img/pic.jpg">
+    </div>
+        <div class="about">
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+        </div>
+    <ul>
+        <li>
+            <i class='bx bxl-facebook-circle' ></i>
+        </li>
+        <li>
+            <i class='bx bxl-twitter' ></i>
+        </li>
+        <li>
+            <i class='bx bxl-linkedin-square' ></i>
+        </li>
+        <li>
+            <i class='bx bx-globe' ></i>
+        </li>
+    </ul>
+    <div class="info">
+        <div class="content-info">
+            <div class="title">
+                <h2>COMPANY INFORMATION</h2>
+            </div>
+            <div class="inner1">
+                <div class="innerform">
+                     <div class="label">Website:</div>
+                     <input type="text">
+                     <div class="label">Company Headquarters:</div>
+                     <textarea rows="2"></textarea>
+                     <div class="label">Industry :</div>
+                     <input type="text">
+                     <div class="label">Specialty:</div>
+                     <input type="text">
+                     <div class="label">Founded:</div>
+                     <input type="text">
+
+                     <div class="fields-orientation">
+                        <div class="mail">
+                            <div class="label">Email:</div>
+                             <input type="email">
+                        </div>  
+                        <div class="phone">
+                            <div class="label"> Telephone</div>
+                             <input type="number">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <h3>JOB Posts:</h3>
+        <div class="jobposting">
+            <div class="job1">
+                <span>Hiring 1</span>
+                
+            </div>
+            <div class="job2">
+                <span>Hiring 2</span>
+            </div>
+            <div class="job3">
+                <span>Hiring 3</span>
+            </div>
+            <div class="job4">
+                <span>Hiring 4</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----content(END)----->
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>

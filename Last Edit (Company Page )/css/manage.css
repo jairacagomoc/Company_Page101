@@ -1,0 +1,600 @@
+/*--CONTENT----*/
+.profile{
+    position: absolute;
+    width: 1250px;
+    height: 1200px;
+    left: 18%;
+    margin-left: 30px;
+    margin-top: 90px;
+    background: rgba(255, 255, 255, 0.692);
+    border-radius: 5px;
+	-webkit-border-radius:10px;
+	padding-left:70px;
+	padding-top:10px;
+	border:none;
+	box-sizing:border-box;
+	
+}
+.desc{
+	position:absolute;
+	top:50px;
+	text-align:left;
+	margin-left:400px;
+	margin-top:30px; 
+}
+.desc textarea{
+	position:absolute;
+	top:50px;
+	width:500px;
+	height:150px;
+	padding-left:15px;
+	padding-top:10px;
+	text-align:left;
+	border:none;
+	-webkit-border-radius: 10px;
+	resize:none;
+	background: rgba(196, 196, 196, 0.6);
+}
+.profilepic img{
+    width: 180px;
+    height: 180px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 100px;
+    background: #C4C4C4;
+	margin-left:100px;
+}
+.profile .profilepic i{
+    position: absolute;
+    font-size: 25px;
+    left: 300px;
+    top: 250px;
+}
+.form{
+	width:1000px;
+	margin:0 0;
+	border:none;
+}
+.form textarea,
+.coInfo .coInfo-1stform input[type="text"],
+.coInfo .coInfo-2ndform input[type="text"]{
+	padding:5px 3px;
+	box-sizing:border-box;
+	width:550px;
+	outline:none;
+	transition:all 0.2s ease;
+	border:none;
+	-webkit-border-radius: 5px;
+	background: rgba(196, 196, 196, 0.6);
+	font-family: Poppins;
+	margin-left: 5px;
+}
+
+.coInfo .coInfo-3rdform .innerform input[type="text"]{
+	padding:5px 3px;
+	box-sizing:border-box;
+	width:400px;
+	outline:none;
+	transition:all 0.2s ease;
+	border:none;
+	-webkit-border-radius: 5px;
+	background: rgba(196, 196, 196, 0.6);
+	font-family: Poppins;
+	margin-left: 5px;
+}
+.package input[type="text"],
+.coInfo .coInfo-3rdform .inner1 input[type="text"]{
+	padding:5px 3px;
+	box-sizing:border-box;
+	width:250px;
+	outline:none;
+	transition:all 0.2s ease;
+	border:none;
+	-webkit-border-radius: 5px;
+	background: rgba(196, 196, 196, 0.6);
+	font-family: Poppins;
+	margin-left: 5px;
+}
+.package input[type="text"]{
+	padding:5px 3px;
+	box-sizing:border-box;
+	width:100px;
+	outline:none;
+	transition:all 0.2s ease;
+	border:none;
+	-webkit-border-radius: 5px;
+	background: rgba(196, 196, 196, 0.6);
+	font-family: Poppins;
+}
+.package :placeholder-shown{
+	font-weight: bold;
+	text-align: center;
+	font-size: 15px;
+	font-family: Poppins;
+
+}
+.coInfo .coInfo-4thform input[type="text"],
+.coInfo .coInfo-4thform input[type="number"]{
+	padding:5px 3px;
+	box-sizing:border-box;
+	width:60px;
+	outline:none;
+	transition:all 0.2s ease;
+	border:none;
+	-webkit-border-radius: 5px;
+	background: rgba(196, 196, 196, 0.6);
+	font-family: Poppins;
+	margin-left: 5px;
+}
+.coInfo,
+.package{
+    margin-left: 30px;
+}
+.coInfo .content-coInfo,
+.package .content-package{
+    margin-left: 30px;
+}
+.coInfo-1stform,
+.coInfo-2ndform,
+.coInfo-4thform{
+    margin-bottom:5px;
+}
+
+.coInfo-4thform .innerform .label{
+    width: 200px;
+    float: left;
+}
+.coInfo-4thform #select{
+    width: 150px;
+}
+.socmed{
+	position: absolute;
+	width: 339px;
+    height: 250px;
+	left: 800px;
+	top: 453px;
+	outline:none;
+
+	background: rgba(196, 196, 196, 0.6);
+	border-radius: 10px;
+	text-align:center;
+	padding-top:15px;
+	font-weight: 900;
+	font-size: 16px;
+	
+}
+.button_facebook input{
+	width: 242px;
+    height: 36px;
+	margin-left: 10px;
+    margin: 0;
+	border:none;
+	margin-top:5px;
+	outline:none;
+	padding-left:5px;
+	background: #EEEEEE;
+    backdrop-filter: blur(4px);
+	font-family: Poppins;
+	border-radius: 10px;
+}
+.button_facebook i{
+	font-size: 25px;
+    align-items: center;
+	display:inline-flex;
+	margin-top:10px;
+    margin-right:10px;
+	
+}
+.coRep .link{
+	margin-left: 30px;
+}
+.form .coRep-1stform .innerform input[type="text"]{
+    width: 250px;
+}
+#update{
+	cursor: pointer;
+	border:none;
+	background: #800;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+	border-radius: 31.5px;
+    color:white;
+	margin-left: 460px;
+	width: 200px;
+	height: 35px;
+    margin-top: 30px;
+	margin-left: 20px;
+}
+.btn_apply{
+	cursor: pointer;
+	border:none;
+	background: #800;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+	border-radius: 31.5px;
+    color:white;
+	width: 200px;
+	height: 30px;
+	margin-bottom: 20px;
+	font-family: Poppins;
+}
+.profile .label2{
+	margin-left: 400px;
+}
+.profile .footer input[type="text"] {
+	margin-left: 460px;
+	padding:5px 3px;
+	box-sizing:border-box;
+	width:200px;
+	outline:none;
+	transition:all 0.2s ease;
+	border:none;
+	-webkit-border-radius: 5px;
+	background: rgba(196, 196, 196, 0.6);
+	font-family: Poppins;
+}
+.profile .footer :placeholder-shown{
+	text-align: center;
+
+}
+
+@media screen and (max-width: 1419px) {
+    .profile {
+		left: 10%;
+	}
+
+}
+
+@media screen and (max-width: 1261px) {
+    .profile {
+		left: 10%;
+	}
+
+	.desc textarea{
+		width:300px;
+	}
+
+	.form textarea,
+.coInfo .coInfo-1stform input[type="text"],
+.coInfo .coInfo-2ndform input[type="text"]{
+	width: 350px;
+	}
+
+	.coInfo .coInfo-3rdform .innerform input[type="text"]{
+		width:350px;
+	}
+	.package input[type="text"],
+	.coInfo .coInfo-3rdform .inner1 input[type="text"]{
+		width:250px;
+	}
+	.package input[type="text"]{
+		width:100px;
+	}
+	.coInfo .coInfo-4thform input[type="text"],
+	.coInfo .coInfo-4thform input[type="number"]{
+		width:60px;
+	}
+
+	.socmed{
+			width: 300px;
+			height: 250px;
+			left: 470px;
+			
+		}
+	.button_facebook input {
+		width: 170px;;
+	}
+
+	.coRep .link{
+		margin-left: 70px;
+	}
+
+	.profile .label2{
+		margin-left: 80px;
+	}
+	.profile .footer input[type="text"] {
+		width:200px;
+	}
+
+	@media screen and (max-width: 1061px) {
+		.profile {
+			left: 12%;
+		}
+
+		.profile img {
+			width: 150px;
+			height: 150px;
+			margin-left: 60px;
+		}
+
+		.profile .profilepic i {
+			left: 220px;
+		}
+	
+		.desc {
+			margin-left: 280px;
+		}
+		.desc textarea{
+			width:250px;
+		}
+	
+		.form textarea,
+	.coInfo .coInfo-1stform input[type="text"],
+	.coInfo .coInfo-2ndform input[type="text"]{
+		width: 250px;
+		}
+	
+		.coInfo .coInfo-3rdform .innerform input[type="text"]{
+			width:250px;
+		}
+		.package input[type="text"],
+		.coInfo .coInfo-3rdform .inner1 input[type="text"]{
+			width:250px;
+		}
+		.package input[type="text"]{
+			width:100px;
+		}
+		.coInfo .coInfo-4thform input[type="text"],
+		.coInfo .coInfo-4thform input[type="number"]{
+			width:60px;
+		}
+	
+		.socmed{
+				width: 200px;
+				height: 250px;
+				left: 350px;
+				top: 420px;
+				
+			}
+		.button_facebook input {
+			width: 120px;;
+		}
+	
+		.coRep .link{
+			margin-left: 70px;
+		}
+	
+		.profile .label2{
+			margin-left: 50px;
+			font-size: 13px;
+		}
+		.profile .footer input[type="text"] {
+			width:200px;
+			margin-left: 300px;
+		}
+		#update {
+			margin-left: 300px;
+		}
+	}
+
+	@media screen and (max-width: 896px) {
+		.profile {
+			left: 12%;
+		}
+
+		.profile img {
+			width: 120px;
+			height: 120px;
+			margin-left: 20px;
+		}
+
+		.profile .profilepic i {
+			left: 140px;
+			top: 180px;
+			font-size: 20px;
+		}
+	
+		.desc {
+			margin-left: 170px;
+		}
+		.desc textarea{
+			width:170px;
+			height: 80px;
+		}
+		.profile h1 {
+			font-size: 20px;
+		}
+		.profile h3 {
+			font-size: 14px;
+		}
+
+		.profile .label {
+			font-size: 12px;
+			margin-left: -20px;
+		}
+	
+		.form textarea,
+	.coInfo .coInfo-1stform input[type="text"],
+	.coInfo .coInfo-2ndform input[type="text"]{
+		width: 200px;
+		margin-left: -20px;
+		}
+	
+		.coInfo .coInfo-3rdform .innerform input[type="text"]{
+			width:200px;
+		}
+		.package input[type="text"],
+		.coInfo .coInfo-3rdform .inner1 input[type="text"]{
+			width:200px;
+			margin-left: -20px;
+		}
+		.package input[type="text"]{
+			width:100px;
+			margin-left: -20px;
+		}
+		.coInfo .coInfo-4thform input[type="text"],
+		.coInfo .coInfo-4thform input[type="number"]{
+			width:60px;
+			margin-left: -20px;
+			margin-right: 20px;
+		}
+
+		.coInfo .coInfo-3rdform .innerform input[type="text"] {
+				
+			margin-left: -20px;
+		}
+	
+		.socmed{
+				width: 150px;
+				height: 180px;
+				left: 270px;
+				top: 330px;
+				
+			}
+
+		.socmed .link{
+			font-size: 12px;
+		}
+		.button_facebook input {
+			width: 80px;
+			height: 25px;
+		}
+
+		.button_facebook i {
+			font-size: 18px;
+		}
+	
+		.coRep .link{
+			margin-left: 40px;
+			font-size: 12px;
+		}
+	
+		.profile .label2{
+			margin-left: 50px;
+			font-size: 13px;
+		}
+		.profile .footer input[type="text"] {
+			width:200px;
+			margin-left: 50px;
+			font-size: 12px;
+		}
+		#update {
+			margin-left: 50px;
+		}
+	}
+
+	@media screen and (max-width: 500px) {
+		.profile {
+			left: 15%;
+		}
+
+		.profile img {
+			width: 90px;
+			height: 90px;
+			margin-left: 10px;
+		}
+
+		.profile .profilepic i {
+			left: 100px;
+			top: 150px;
+			font-size: 17px;
+		}
+	
+		.desc {
+			margin-left: 120px;
+		}
+		.desc textarea{
+			margin-top: -40px;
+			width:120px;
+			height: 60px;
+		}
+		.profile h1 {
+			font-size: 14px;
+		}
+		.profile h3 {
+			font-size: 12px;
+			margin-left: -20px;
+		}
+		.profile h4 {
+			font-size: 12px;
+			margin-top: -10px;
+		}
+
+		.profile .label {
+			font-size: 12px;
+			margin-left: -40px;
+		}
+	
+		.form textarea,
+	.coInfo .coInfo-1stform input[type="text"],
+	.coInfo .coInfo-2ndform input[type="text"]{
+		width: 120px;
+		height:20px;
+		margin-left: -40px;
+		}
+	
+		.coInfo .coInfo-3rdform .innerform input[type="text"]{
+			width:120px;
+		}
+		.package input[type="text"],
+		.coInfo .coInfo-3rdform .inner1 input[type="text"]{
+			margin-left: -40px;
+			width: 120px;
+		}
+		.package input[type="text"]{
+			width:100px;
+			margin-left: -40px;
+		}
+		.coInfo .coInfo-4thform input[type="text"],
+		.coInfo .coInfo-4thform input[type="number"]{
+			width:60px;
+			margin-left: -40px;
+			margin-right: 40px;
+		}
+
+		.coInfo .coInfo-3rdform .innerform input[type="text"] {
+			width: 120px;
+			height: 20px;
+			margin-left: -40px;
+		}
+	
+		.socmed{
+				width: 110px;
+				height: 180px;
+				left: 170px;
+				top: 280px;
+				
+			}
+
+		.socmed .link{
+			font-size: 10px;
+		}
+		.button_facebook input {
+			width: 50px;
+			height: 20px;
+		}
+
+		.button_facebook i {
+			font-size: 18px;
+		}
+	
+		.coRep .link{
+			margin-left: 20px;
+			font-size: 12px;
+		}
+	
+		.profile .label2{
+			margin-left: 50px;
+			font-size: 12px;
+			margin-right: 60px;
+		}
+		.profile .footer input[type="text"] {
+			width:120px;
+			margin-left: 20px;
+			font-size: 12px;
+		}
+		#update {
+			margin-left: 20px;
+			width:120px;
+		}
+		
+		.package .content-package input[type="text"] {
+			font-size: 12px;
+			width: 50px;
+		}
+		.btn_apply {
+			width: 150px;
+			font-size: 12px;
+
+		}
+	}
+
+}

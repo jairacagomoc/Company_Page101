@@ -1,0 +1,11 @@
+.main{
+    position: absolute;
+    width: 1250px;
+    height: 1000px;
+    left: 18%;
+    margin-top: 90px;
+    background-color: rgba(255, 255, 255, 0.692);
+	-webkit-border-radius:10px;
+	border:none;
+	box-sizing:border-box;
+}

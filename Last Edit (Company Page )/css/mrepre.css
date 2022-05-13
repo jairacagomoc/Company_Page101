@@ -1,0 +1,170 @@
+
+/*--CONTENT----*/
+.coRep{
+    position: absolute;
+    width: 1250px;
+    height: 850px;
+    left: 18%;
+    margin-top: 90px;
+    background: rgba(255, 255, 255, 0.692);
+    border-radius: 5px;
+	padding-top:10px;
+	border:none;
+	box-sizing:border-box;
+	padding-left: 150px;
+	
+}
+.coRep{
+    margin-left:5px;
+}
+.coRep input[type="text"]{
+	padding:5px 3px;
+	box-sizing:border-box;
+	width:250px;
+	outline:none;
+	transition:all 0.2s ease;
+	border:none;
+	-webkit-border-radius: 5px;
+	background: rgba(235, 231, 231, 0.6);
+	font-family: Poppins;
+}
+.form .label{
+	margin-bottom:5px;
+	text-transform:capitalize;
+}
+.coRep .content-coRep{
+    margin-left: 30px;
+}
+.coRep-1stform .innerform{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.coRep-1stform .innerform .label{
+    width: 100px;
+    margin-right: 50px;
+}
+#suffix{
+	width:60px;
+}
+.coRep-2ndform{
+	clear:both;
+}
+.coRep .coRep-1stform,
+.coRep .coRep-2ndform{
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.coRep span{
+	font-weight: bold;
+
+}
+
+.btn_back,
+.btn_update,
+.btn_new,
+.btn_delete{
+	cursor: pointer;
+	border:none;
+	background: #800;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+	border-radius: 31.5px;
+    color:white;
+	width: 80px;
+	height: 20px;
+    margin-top: 20px;
+	margin-bottom: 20px;
+}
+.btn_update{
+	margin-left: 820px;
+}
+.btn_new{
+	margin-left: 900px;
+}
+.NewRep{
+	margin-bottom: 20px;
+	border-bottom: 1px solid gray;
+	width: 1000px;
+}
+
+
+@media  screen and (max-width:1440px) {
+
+	.NewRep{
+		margin-bottom: 20px;
+		border-bottom: 1px solid gray;
+		width: 800px;
+	}
+	
+}
+
+@media  screen and (max-width:1080px) {
+
+
+	.coRep input[type="text"]{
+		width: 180px;
+	}
+
+	.coRep h2 {
+		font-size: 21px;
+	}
+
+	.NewRep{
+		margin-bottom: 20px;
+		border-bottom: 1px solid gray;
+		width: 600px;
+	}
+
+}
+
+@media  screen and (max-width:853px) {
+	.coRep {
+		padding-left: 60px;
+		
+	}
+
+	.coRep input[type="text"]{
+		width: 150px;
+		height: 23px;
+
+	}
+	.coRep .label {
+		font-size: 13px;
+	}
+	.coRep h2 {
+		font-size: 21px;
+	}
+
+	.NewRep{
+		margin-bottom: 20px;
+		border-bottom: 1px solid gray;
+		width: 400px;
+	}
+
+}
+
+@media  screen and (max-width:613px) {
+	.coRep {
+		padding-left: 60px;
+		
+	}
+
+	.coRep input[type="text"]{
+		width: 120px;
+		height: 23px;
+
+	}
+	.coRep .label {
+		font-size: 12px;
+	}
+	.coRep h2 {
+		font-size: 14px;
+	}
+
+	.NewRep{
+		margin-bottom: 20px;
+		border-bottom: 1px solid gray;
+		width: 250px;
+	}
+
+}
